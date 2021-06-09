@@ -1,0 +1,205 @@
+
+/* CSS Document */
+body {margin:0; background:url(http://linye.jlcity.gov.cn/images/bs_bj_01.png) no-repeat top;}
+body,td,th {font-size:12px; font-family: "宋体"; color:#030000;}
+img{ border:0}
+h1, h2, h3, h4, h5, h6, h7, p, ul, ol, dl, dt, dd, li, body, form, input, button, img, cite, strong, em{ padding:0; margin:0;}
+ul, ol,li{ list-style-type:none;}input,select {font-size:12px;vertical-align:absmiddle;}
+.wrap li,.d10 a,h2{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+a{ font-size:12px; color:#030000; text-decoration: none;cursor:pointer;}
+a:hover{ text-decoration: none; color:#154168; font-size:12px;}
+html{ overflow-x:hidden; overflow-y:auto;}
+/*头部*/
+.pz_top{ width:100%; float:left;}
+.c_0100_1{ width:100%; background:#112444; height:29px; line-height:29px; float:left;}
+.w_1200{ width:1200px; margin:0 auto;}
+.c_1200_1{ width:1200px; float:left; color:#fff;}
+.c_0100_2{ width:100%; float:left; background:url(jl_tbbj.jpg) no-repeat center;}
+.c_1200_2{ float:left; width:1200px; }
+.logo{padding-top:30px; padding-bottom:25px; float:left;}
+.logo2{padding-top:20px; padding-left:20px;  float: right;}
+
+/*导航*/
+.menu{ width:1200px; float:left; background:url(jl_dh.png) no-repeat; height:50px;}
+.menu li{ width:109px; text-align:center; line-height:50px; float:left; background:url(jl_bx_03.png) no-repeat right;}
+.menu li a{ color:#fff; font-size:14px;}
+
+/*主体*/
+.pz_main{ width:100%; float:left;}
+/*主体-通知公告*/
+.c_1200_3{ width:1198px; float:left; margin:10px 0px; border:1px #e2dad8 solid; height:36px; line-height:36px;}
+.c_1200_3 .z1{ float:left; padding-left:15px; font-size:14px; font-weight:bold;}
+.c_1200_3 .z2{ float:left;}
+.c_1200_3 .z2 a{ font-size:14px; color:#000000;}
+.c_1200_3 .z2 a:hover{ color:#185584;}
+
+/*主体-新闻中心*/
+.c_1200_4{ width:1200px; float:left; height:312px;}
+.l_526{ width:526px; float:left;}
+		.slideBox3{ width:526px; height:302px; overflow:hidden; position:relative;  }
+		.slideBox3 .hd{ height:16px; overflow:hidden; position:absolute; right:9px; bottom:6px; z-index:1; }
+		.slideBox3 .hd ul{ overflow:hidden; zoom:1; float:left;  }
+		.slideBox3 .hd ul li{ float:left; width:16px; margin-left:10px; color:#333; height:16px; line-height:16px; text-align:center; background:#eeeeee; cursor:pointer; }
+		.slideBox3 .hd ul li.on{  background:#ff3300; color:#fff; margin-left:10px; width:16px; height:16px;}
+		.slideBox3 .bd{ position:relative; height:100%; z-index:0;   }
+		.slideBox3 .bd li{ zoom:1; vertical-align:middle;  position:relative;}
+		.slideBox3 .bd img{ width:526x; height:302px; display:block;  }
+
+.l_655{ width:655px; float:right;}
+.l_655 .t_655{ width:655px; float:left; border-bottom:2px #185584 solid; height:40px;}
+.l_655 .t_655 .z1{ width:113px; float:left; background:#185584; line-height:40px; text-align:center; color:#fff; font-size:18px;font-family:"microsoft yahei";}
+.l_655 .t_655 .z2{ float:right; line-height:40px;}
+.l_655 .t_655 .z2 a{ color:#000;}
+.l_655 .t_655 .z2 a:hover{ color:#185584;}
+.l_655 .d_655{ width:655px; float:left;}
+.l_655 .d_655 .l1{ width:655px; float:left; margin-bottom:5px; border-bottom:1px #d4d4d4 dashed; padding-bottom:5px;}
+.l_655 .d_655 .l1 .z1{ text-align:center; width:655px; float:left; padding-top:12px;}
+.l_655 .d_655 .l1 .z1 a{ font-size:18px; color:#000000;font-family:"microsoft yahei";}
+.l_655 .d_655 .l1 .z2{ width:655px; float:left; padding-top:5px; line-height:25px; color:#858585;}
+.l_655 .d_655 .l1 .z2 a{ color:#0368a4;}
+.l_655 .d_655 .l2{ width:638px; line-height:32px; float:left; padding-left:17px; background:url(http://linye.jlcity.gov.cn/images/jl_hb_03.jpg) no-repeat 2px center;}
+.l_655 .d_655 .l2 a{ float:left; color:#434343; font-size:14px;}
+.l_655 .d_655 .l2 a:hover{color:#185584;}
+.l_655 .d_655 .l2 span{ color:#858585; float: right;}
+
+/*主体-专题专栏*/
+.c_ztzl_4{ width:1200px; background:#f2f2f2; height:189px; float:left;}
+.c_ztzl_4 .lb{ float:left; padding-top:16px;}
+.c_ztzl_4 .rb{ width:1157px; float:right;}
+.c_ztzl_4 .rb .l{ float:left; padding-left:21px; padding-top:64px;}
+.c_ztzl_4 .rb .r{ float: right; padding-top:64px; padding-right:18px;}
+.c_ztzl_4 .rb .zj{ width:1084px; float:left;}
+.c_ztzl_4 .rb .zj li{ width:239px; padding-top:16px; height:155px; float:left; padding-left:18px; padding-right:13px;}
+/*主体-互动交流*/
+.c_1200_5{  width:1200px; padding-top:10px; float:left; height:250px;}
+.l_394{ width:394px; float:left; margin-right:10px;}
+.l_394 .t_394{ height:32px; width:394px; background: url(jl_hdjl.jpg) no-repeat; float:left;}
+.l_394 .t_394 .z1{ font-size:14px; float:left; padding-left:18px; line-height:32px; color:#fff;}
+.l_394 .t_394 .z2{ float:right; line-height:32px; padding-right:12px; }
+.l_394 .t_394 .z2 a{color:#fff;}
+.l_394 .d_394{ border:1px #e2e2e2 solid; padding-top:2px; height:205px; float:left; width:392px;} 
+.l_394 .d_394 li{ width:182px; height:90px; float:left; padding-left:9px; padding-top:8px; padding-right:1px;}
+/*主体-重要信息转载*/
+.l_394_1{ width:394px; height:32px; float:left; line-height:32px;}
+.l_394_1 .t_394{ height:32px; width:394px; background:url(jl_zyxx.jpg) no-repeat; float:left;}
+.l_394_1 .t_394 .z1{ font-size:14px; padding-right:22px; float:left; padding-left:18px; line-height:32px; color:#fff;}
+.l_394_1 .t_394 .z2{ float: left; }
+.l_394_1 .t_394 .z2 li{ width:70px; text-align:center; height:32px; float:left;}
+.l_394_1 .t_394 .z2 li a{ color:#fff; font-size:14px; float:left; width:70px; height:32px;}
+.l_394_1 .t_394 .z2 li.on a{ width:70px; height:32px; float:left; background:#17568e;}
+.l_394_1 .d_394{ border:1px #e2e2e2 solid; padding-left:10px; padding-right:10px; padding-top:7px; height:200px; float:left; width:372px;} 
+.l_394_1 .d_394 li{ width:355px; line-height:32px; float:left; padding-left:17px; background:url(http://linye.jlcity.gov.cn/images/jl_hb_03.jpg) no-repeat 2px center;}
+.l_394_1 .d_394 li a{ float:left; color:#434343; font-size:14px;}
+.l_394_1 .d_394 li a:hover{color:#185584;}
+.l_394_1 .d_394 li span{ color:#858585; float: right;}
+/*主体-信息公开*/
+.l_394 .d_394_1{ border:1px #e2e2e2 solid; padding-top:10px; padding-left:2px; height:197px; float:left; width:390px;} 
+.l_394 .d_394_1 li{ width:162px; height:48px; float:left; padding-left:22px; padding-top:11px;}
+
+/*主体-成就展厅*/
+.c_cjzt{ width:1200px; padding-top:10px; padding-bottom:12px; float:left;font-family:"microsoft yahei";}
+.c_cjzt .t_cjzt{ background:url(jl_cjzt_03.jpg) no-repeat; height:32px; width:1200px; float:left;}
+.c_cjzt .t_cjzt .z1{ float:left; font-size:18px; line-height:25 px; padding-left:25px; color:#000000;}
+.c_cjzt .t_cjzt .z2{ float: right; width:57px; height:23px; text-align:center; line-height:23px;}
+.c_cjzt .t_cjzt .z2 a{ color:#fff;}
+.c_cjzt .d_cjzt{ width:1200px; float:left; padding-top:15px;}
+.c_cjzt .d_cjzt ul{ width:1223px; float:left; overflow:hidden;}
+.c_cjzt .d_cjzt ul li{ width:219px; border:1px #dedfdf solid;  float:left; margin-right:23px;}
+
+/*主体-相关链接*/
+.c_xglj{ width:1200px; float:left; background:#f2f2f2; height:60px;}
+.c_xglj .z1{ font-size:18px; width:130px; text-align:center; float:left; line-height:60px;font-family:"microsoft yahei"; }
+.c_xglj .z2{ float:left; padding-top:16px;}
+.xl{ width:154px; margin-right:20px; height:27px; border:1px #cccccc solid; line-height:27px; float:left; color:#666666;}
+/*底部*/
+.pz_down{ width:100%; background: url(jl_db.jpg) no-repeat center bottom; line-height:24px; padding-top:20px; padding-bottom:92px; text-align:center; float:left;}
+
+/*林业概况*/
+.c_1200_6{ width:1200px; float:left; padding-bottom:15px;}
+.dz{width:1173px; font-size:14px;font-family:"microsoft yahei";  float:left; margin-bottom:8px; padding-left:27px; background:url(pss_fz_03.png) no-repeat 0 center; line-height:40px;}
+.c_250{ width:250px; float:left; border:1px #dedede solid;}
+.c_250 .t_250{ width:220px; padding-left:30px; padding-top:10px;font-family:"microsoft yahei"; color:#fff; background:url(pss_lbj.jpg) no-repeat; font-size:16px; height:50px; float:left;}
+.c_250 .t_250 span{ color:#abd9fa; font-size:12px; line-height:20px;}
+.c_250 .d_250{ width:250px; float:left; padding:10px 0px 50px 0px; }
+.c_250 .d_250 li{ width:230px; float:left; padding:0 10px; margin-bottom:10px;font-family:"microsoft yahei";  }
+.c_250 .d_250 li a{font-size:14px; width:200px; padding-left:30px; line-height:37px;background:url(pss_ieyh_03.png) no-repeat; height:37px;float:left;}
+.c_250 .d_250 li a:hover{font-size:14px; width:200px; height:37px; padding-left:30px; color:#fff; background:url(pss_ieyh_07.png) no-repeat; float:left;}
+
+.c_800{ width:903px; float: right; border:1px #dedede solid; padding:5px 15px 0 15px;}
+.c_800 .t_800{ width:883px; float:left; height:40px; border-bottom:1px #dedede solid;font-family:"microsoft yahei"; line-height:40px; font-size:16px; background: url(sy_87_03.jpg) no-repeat 0 center; padding-left:20px;}
+.c_800 .d_800{ width:903px; float:left; padding:15px 0; font-size:14px; line-height:30px;}
+
+/*领导介绍*/
+.d_960_1{ width:903px; float:left;  padding-top:15px; font-size:14px; padding-bottom:20px; }
+.d_960_1 ul{ width:916px; float:left; overflow:hidden;}
+.d_960_1 li{ width:292px; padding-right:13px;float:left;}
+.d_960_1 li .img{ width:292px; float:left;}
+.d_960_1 li .z1{ width:292px; text-align:center; line-height:40px;  float:left;}
+
+/* 分页 */
+.pz_fy{width:100%; float:left; padding:30px 0px 10px 0; text-align: center;}/*分页浮左或者浮右，修改此处即可。例：text-align:left;*/
+.pz_fy a { padding:4px 8px; COLOR: #3b3b3b; border:1px #d5d5d5 solid; text-decoration:none; margin:0 1px; background:#fff;}
+.pz_fy a:hover,.pz_fy a.on{color:#fff; text-decoration:none;border:1px #d5d5d5 solid; background:#084681;margin:0 1px;}/*鼠标经过和默认当前页*
+
+/*机构设置*/
+.d_960_2{ width:833px; float:left;  padding-top:15px; padding-bottom:20px; font-size:14px; }
+.d_960_2 li{ width:400px; float:left; background: url(sy_hb_03.jpg) no-repeat 0 center;padding-left:10px; line-height:40px;}
+.d_960_2 li a{ font-size:14px;}
+
+/*新闻动态*/
+.d_960_3{ width:833px; float:left; padding-bottom:20px; padding-top:10px; font-size:14px; }
+.d_960_3 li{ width:823px; float:left; background: url(sy_hb_03.jpg) no-repeat 0 center; border-bottom:1px #d4d4d4 dashed; padding-left:10px; line-height:40px;}
+.d_960_3 li a{ font-size:14px; float: left;}
+.d_960_3 li span{ font-size:14px; float: right; color:#888a88;}
+
+
+/*咨询服务*/
+.d_960_4{ width:833px; float:left;  padding-top:10px; font-size:14px; }
+.d_960_4 ul li .yi{width:833px; height:auto;}
+.d_960_4 ul li .yi .shijian h2{ color:#000; height:40px; line-height:50px; font-size:14px; font-weight:bold; border-bottom:1px #e3e3e3 solid;}
+.d_960_4 ul li .yi .shijian h2 span{ font-size:12px; color:#333;  font-weight:normal;font-family:"宋体"; float:right;}
+.d_960_4 ul li .yi .shijian h2 span a{ color:#333}
+.d_960_4 ul li .yi .shijian h2 span a:hover{text-decoration: underline;}
+.d_960_4 ul li .yi .neirong{ line-height:24px; font-size:14px; padding-top:10px;}
+.d_960_4 ul li .yi .huifu{line-height:30px; color:#F00; font-size:12px; background:#f7f6e7;}
+.d_960_4 ul li .yi .huifu span{ font-weight:bold;}
+.liuyan{width:833px; height:auto; padding-top:20px; margin:auto;}
+.liuyan .shang{width:833px; height:50px; line-height:50px; font-size:18px; font-weight:bold; padding-bottom:30px;color:#000; border-bottom:1px #e3e3e3 solid;}
+.liuyan .xia{width:833px; height:auto; margin-top:-20px;}
+.liuyan .xia ul{ width:833px; height:auto; margin:auto; margin-top:30px;}
+.liuyan .xia ul li{line-height:50px; font-size:14px;}
+.liuyan .xia ul li .anniu{ width:154px; height:36px; background: url(http://linye.jlcity.gov.cn/images/pss_liuyan.jpg) no-repeat; border:0px; cursor:hand; margin-top:20px;margin-bottom:20px;}
+
+/*详细页*/
+.c_1200_7{ width:1200px; float:left; padding-top:10px; padding-bottom:10px;}
+.xxy{width:1158px; padding: 20px; font-size:14px;border:1px #d5d5d5 solid; float:left; margin-bottom:8px; }
+.xxy .z1{ width:1158px; font-size:18px; line-height:40px; padding-bottom:10px; font-weight:bold; float:left; text-align:center;}
+.xxy .z2{ width:1158px; font-size:12px; background:#efefef; line-height:30px; text-align:center; float:left;}
+.xxy .z3{ width:1158px; font-size:14px; padding-top:20px; float:left; font-size:14px; line-height:30px;}
+
+/*详细页*/
+.d_960_5{ width:833px; float:left;  padding-top:10px; font-size:14px; }
+.d_960_5 ul{ float:left; width:893px; overflow:hidden;}
+.d_960_5 li{ width:239px; float:left; padding:0 28px;}
+.d_960_5 li .img{ width:239px; float:left;}
+.d_960_5 li .z1{ width:239px; font-size:14px; line-height:40px; float:left; text-align:center;}
+.d_960_5 li .z1 a{font-size:14px; }
+
+.floatingAd .ad{z-index:100;background:none;position:absolute;display:none;}
+.floatingAd a{color:#000000; display:inline-block;text-decoration:none;}
+.floatingAd a img{border:0;}
+.floatingAd .close{display:none;}
+.opacity1{opacity:0.90; filter:alpha(opacity = 90);}
+.floatingAd .text{position:absolute; top:0;  color:#000000; line-height:25px; }
+.floatingAd .text .button{position:relative;float:right;top:5px;right:5px;width:16px;height:16px;background:url(http://linye.jlcity.gov.cn/images/slj-remove.png) no-repeat;cursor:pointer;}
+.floatingAd .text .title{position:relative;float:left;font-size:12px;margin-left:5px;}
+
+.pf{ position: absolute; right:200px; top:0px;}
+
+
+
+
+
+
+
+
